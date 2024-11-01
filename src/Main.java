@@ -22,7 +22,7 @@ public class Main {
             System.out.println("Esta nota no puede ser mayor que 10, así que cortamos la secuencia de 5 notas :D");
         }else{
             System.out.println("Suspensos: " + suspensos);
-            System.out.println("Gracias por hacer las cosas bien, aveces hace fala que por hacer las cosas bien te den las gracias :D");
+            System.out.println("Gracias por hacer las cosas bien, a veces hace fala que por hacer las cosas bien te den las gracias :D");
         }
     }
 }
