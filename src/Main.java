@@ -5,17 +5,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese la primera nota: ");
-        int nota = sc.nextInt();
+        int nota = 0;
         int suspensos = 0;
-        int contador = 1;
+        int contador = 0;
         while (contador < 5 && nota >=0 && nota <= 10) {
+            contador++;
+            System.out.println("Ingrese la siguiente nota: ");
+            nota = sc.nextInt();
             if (nota < 5 ) {
                 suspensos++;
             }
-            System.out.println("Ingrese la siguiente nota: ");
-            nota = sc.nextInt();
-            contador++;
         }
         if (nota<0){
             System.out.println("La siguiente nota no puede ser negativa, cortamos la secuencia de 5 notas :D");
